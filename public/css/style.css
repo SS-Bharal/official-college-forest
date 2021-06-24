@@ -23,13 +23,34 @@
 }
 
 .featurette {
-    max-width: 100vw;
+    max-width: 90vw;
 }
 
 .firstHalf {
     margin: 15% 0px;
     /* margin-left: 20px; */
-    padding-left: 45px;
+    /* padding-left: 45px; */
+    /* padding: 0 5px; */
+    /* margin: 0% 20px; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bgr {
+    /* max-width: 95vw; */
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 575px) {
+    .secondHalf {
+        display: none;
+    }
 }
 
 button a:hover {
@@ -72,10 +93,6 @@ button a:hover {
     color: black;
 }
 
-.sect-1 {
-    max-width: 99vw;
-}
-
 .about-img {
     width: 140px;
     height: 140px;
@@ -90,6 +107,13 @@ button a:hover {
 
 .sec-mg {
     margin: 5% 0px;
+}
+
+#myDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
