@@ -1,3 +1,8 @@
+#sl {
+    /* border: 2px solid red; */
+    margin: 5px 0px;
+}
+
 #intro {
     background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
     height: 100vh;
