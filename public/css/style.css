@@ -315,3 +315,10 @@ body {
     background: brown;
     color: white;
 }
+
+
+/* Joining form  */
+
+#join_form {
+    padding: 2px 2px;
+}
