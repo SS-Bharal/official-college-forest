@@ -4,7 +4,8 @@
 }
 
 #intro {
-    background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+    /* background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg"); */
+    background: url(https://mdbootstrap.com/img/new/fluid/city/018.jpg) no-repeat center center/cover;
     height: 100vh;
     /* width: 100vw; */
 }
@@ -32,10 +33,11 @@
 }
 
 .firstHalf {
-    margin: 30% 0px;
+    margin: auto 0px;
     /* margin-left: 20px; */
     /* padding-left: 45px; */
     /* padding: 0 5px; */
+    padding: 10px 0px;
     /* margin: 0% 20px; */
     /* border: 2px solid red; */
     display: flex;
